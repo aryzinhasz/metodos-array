@@ -1,0 +1,4 @@
+//Método que classifica os itens do Array
+let num = [0, 2, 4, 1];
+console.log(num.sort((a, b) => a - b)); // Saída: [0, 1, 2, 4]
+console.log(num.sort((a, b) => b - a)); // Saída: [4, 2, 1, 0]
