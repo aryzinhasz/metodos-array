@@ -2,5 +2,5 @@
 
 let num = [1, 2, 3, 4, 5, 6, 7, 8];
 let numRemovido = num.pop();
-console.log(num); // Saída: [1, 2, 3, 4, 5, 6, 7]
-console.log(numRemovido); // Saída: 8
+console.log("Array:", num); // Saída: [1, 2, 3, 4, 5, 6, 7]
+console.log("Removido:", numRemovido); // Saída: 8
